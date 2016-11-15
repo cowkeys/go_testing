@@ -12,5 +12,6 @@ func Benchmark(b *testing.B) {
 		Delete()
 	}
 }
-
-//目录下  go test -test.bench=".*"
+//目录下 执行
+//go test
+// go test -test.bench=".*"
